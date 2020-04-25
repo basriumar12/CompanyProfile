@@ -22,7 +22,7 @@ interface ApiService {
               ) : Call<ResponseDelete>
 
     @FormUrlEncoded
-    @POST("edit_company.php")
+    @POST("delete_company.php")
     fun delete (
         @Field("id") id : String
               ) : Call<ResponseDelete>

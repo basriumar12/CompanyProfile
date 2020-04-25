@@ -7,15 +7,21 @@
     tools:context=".MainActivity">
 
 
+<FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_above="@+id/navigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
     <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+        android:id="@+id/navigation"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:mbn_circleColor="#ffffff"
+        app:mbn_circleColor="@color/colorPrimary"
         app:mbn_backgroundBottomColor="#ffffff"
         app:mbn_countBackgroundColor="#ff6f00"
         app:mbn_countTextColor="#ffffff"
-        app:mbn_countTypeface="fonts/SourceSansPro-Regular.ttf"
         app:mbn_defaultIconColor="#90a4ae"
         app:mbn_rippleColor="#2f424242"
         app:mbn_selectedIconColor="#3c415e"

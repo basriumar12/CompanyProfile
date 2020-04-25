@@ -13,7 +13,7 @@ class ApiRetrofit {
         fun create(): ApiService {
 
             val BASEURL =
-                "http://192.168.0.111:8070/api_company/"
+                "http://192.168.0.108:8070/api_company/"
             val interceptor = HttpLoggingInterceptor()
             interceptor.level = HttpLoggingInterceptor.Level.BODY
 

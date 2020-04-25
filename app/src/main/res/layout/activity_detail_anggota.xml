@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".ui.activity.detail_anggota.DetailAnggotaActivity">
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/tv_nama_anggota_detail"
+        android:text="Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/tv_kelamin_anggota_detail"
+        android:text="Kelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/tv_status_anggota_detail"
+        android:text="Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/tv_posisi_anggota_detail"
+        android:text="Posisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
